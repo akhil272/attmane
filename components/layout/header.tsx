@@ -2,7 +2,7 @@ import Image from "../../node_modules/next/image";
 import Link from "../../node_modules/next/link";
 const Header = () => {
   return (
-    <header className=" flex w-full py-12 px-36 h-20">
+    <header className="flex w-full py-12 h-20 lg:px-36 px-10 ">
       <div className="flex justify-between w-full items-center">
         <div className="flex items-center space-x-2">
           <Image
@@ -16,7 +16,7 @@ const Header = () => {
             <p>Go beyond possibilities</p>
           </div>
         </div>
-        <div className="flex space-x-24 text-2xl">
+        <div className="lg:flex hidden space-x-24 text-2xl">
           <Link href="#">Home </Link>
           <Link href="#">About </Link>
           <Link href="#">Projects </Link>
