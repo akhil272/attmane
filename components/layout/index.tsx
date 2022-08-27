@@ -9,8 +9,8 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <div>
       <Header />
-      <div className="p-4">{children}</div>
-      <Footer />
+      <div className="px-36 py-4 bg-att_black">{children}</div>
+      {/* <Footer /> */}
     </div>
   );
 };
