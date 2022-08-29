@@ -2,7 +2,7 @@ import Head from "next/head";
 
 function Homepage() {
   return (
-    <div className="bg-att_black text-white lg:py-52 space-y-10 h-full py-24">
+    <div className="bg-att_black lg:px-36 p-10 text-white lg:py-52 space-y-10 h-full py-24">
       <Head>
         <title>Attmane | Go Beyond Possibilities </title>
         <meta

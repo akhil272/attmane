@@ -41,7 +41,7 @@ const Layout: FC<Props> = ({ children }) => {
         />
       </Head>
       <Header />
-      <div className="lg:px-36 lg:py-4 p-10 bg-att_black">{children}</div>
+      <div>{children}</div>
       {/* <Footer /> */}
     </div>
   );
