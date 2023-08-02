@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className=" lg:px-36 p-10  space-y-10 h-full py-10">
       <h1 className="text-4xl font-medium">
-        Turn ideas into <span className="text-att_primary">reality</span>
+        Turn ideas into <span className="text-att_primary">reality!</span>
       </h1>
       <div className="lg:flex  lg:space-x-32 justify-center items-center">
         <Image
